@@ -1,28 +1,13 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 h1 {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 section {
-  padding: 1rem;
+  padding: 2.8rem;
 }
 
 form {
@@ -30,15 +15,15 @@ form {
 }
 
 input {
-  border-color: #000;
+  border-color: #f2f2f2;
 }
 
 select {
-  border-color: #000;
+  border-color: #f2f2f2;
 }
 
 textarea {
-  border-color: #000;
+  border-color: #f2f2f2;
 }
 
 .name {
@@ -57,7 +42,7 @@ textarea {
   display: block;
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 60em) {
 
   section {
     vertical-align: middle;
@@ -75,11 +60,12 @@ textarea {
 
   .email {
     display: inline-block;
-    width: 49%
+    width: 49%;
   }
 
   .phys {
     display: inline-block;
     width: 50%;
   }
+
 }
